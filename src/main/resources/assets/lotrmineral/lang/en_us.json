@@ -1,5 +1,7 @@
 {
     "block.lotrmineral.gneiss": "Gneiss",
     "block.lotrmineral.limestone": "Limestone",
-    "block.lotrmineral.gabbro": "Gabbro"
+    "block.lotrmineral.gabbro": "Gabbro",
+    "block.lotrmineral.shale": "Shale",
+    "block.lotrmineral.slate": "Slate"
 }

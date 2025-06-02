@@ -39,6 +39,16 @@ public class LotrMineralBlocks {
                     .harvestLevel(1).harvestTool(ToolType.PICKAXE)
                     .requiresCorrectToolForDrops().strength(1.5f, 6.0f).sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> SHALE = registerBlock("shale",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE)
+                    .requiresCorrectToolForDrops().strength(1.5f, 6.0f).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SLATE = registerBlock("slate",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE)
+                    .requiresCorrectToolForDrops().strength(1.5f, 6.0f).sound(SoundType.STONE)));
+
 
 
     //Block registry
