@@ -1,0 +1,50 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" 
+# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="CC0-1.0"
+
+[[mods]]
+modId="lotrmineral"
+version="${version}"
+displayName="Minerals Of Miffle Earth"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+
+# A file name (in the root of the mod JAR) containing a logo for display
+#logoFile="examplemod_logo.png" #optional
+
+credits='''
+ExampleMod
+'''
+
+authors="ExampleMod authors"
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+An Example Mod
+'''
+
+[[dependencies.lotrmineral]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.lotrmineral]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.lotrmineral]]
+    modId="lotr"
+    mandatory=true
+    versionRange="Renewed-5.5"
+    ordering="BEFORE"
+    side="BOTH"
+[[dependencies.lotrmineral]]
+    modId="lotrextended"
+    mandatory=true
+    versionRange="[1.7.4,)"
+    ordering="BEFORE"
+    side="BOTH"

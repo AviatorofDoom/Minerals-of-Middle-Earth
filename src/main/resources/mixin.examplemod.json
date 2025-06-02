@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.lotrmineral.mixins",
+  "plugin": "com.lotrmineral.mixins.MIXINConfig",
+  "refmap": "mixin.examplemod.refmap.json",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "HackyChairDatabaseMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
